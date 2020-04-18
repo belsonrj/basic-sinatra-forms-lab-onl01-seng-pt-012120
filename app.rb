@@ -7,7 +7,6 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    id= "Submit"
     @name = params["name"]
     @coach = params["coach"]
     @pg = params["pg"]
@@ -15,7 +14,7 @@ class App < Sinatra::Base
     @sf = params["sf"]
     @pf = params["pf"]
     @center = params["c"]
-
+    id= "Submit"
     erb :team
   end
 
