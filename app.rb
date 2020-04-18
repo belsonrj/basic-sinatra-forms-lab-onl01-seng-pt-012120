@@ -14,7 +14,7 @@ class App < Sinatra::Base
     @sf = params["sf"]
     @pf = params["pf"]
     @center = params["c"]
-    id= "Submit"
+    #id= "Submit"
     erb :team
   end
 
